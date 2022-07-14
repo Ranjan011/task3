@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/practice/myfirstwebsite/bloggingwebsite.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header class="header">
+        <figure class="logo">
+            <img src="/images/logo1.jpg" alt="my company logo">
+        </figure>
+        
+        <ul class="navbar">
+            <li class="list"><a href="#">Home</a></li>
+            <li class="list"><a href="#">About Us</a></li>
+            <li class="list"><a href="#">Contact</a></li>
+            <li class="list"><a href="#">Blog</a></li>
+        </ul>
+
+        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+            <ul class="mobile-menu">
+              <li><a href="/home">Home</a></li>
+              <li><a href="/products">About Us</a></li>
+              <li><a href="/about">Contact</a></li>
+              <li><a href="#">Blog</a></li>
+              <!-- <li id="login"><a href="/login" >Login</a></li>
+              <li id="signup"><a href="/signup">Signup</a></li> -->
+            </ul>
+          </div>
+
+        <section class="button">
+            <button class="btn">Register</button>
+            <button class="btn">Log In</button>
+        </section>
+    </header>
+
+    <main class="main">
+        <section class="pages1">
+            <h2>About Me</h2>
+            <figure>
+                <img class="mypic" src="/images/ran.jpg" alt="">
+            </figure>
+            <h2>Krishna Ranjan</h2>
+            <h3>Connect with me</h3>
+            <figure>
+                <a href="https://github.com/Ranjan011" target="_blank"><img class="icon" src="/images/gith.jpg" alt="github"></a>
+                <a href="https://www.linkedin.com/login" target="_blank"><img class="icon" src="/images/linkedin.jpg" alt="linked in"></a>
+                <a href=""><img class="icon" src="/images/insta.jpg" alt="insta"></a>
+            </figure>
+        </section>
+        <section class="blog">
+            
+            <section class="pages">
+                <h2>PATNA JUNCTION</h2>
+                <figure>
+                    <img class="pic" src="/images/patna.jpg" alt="patna junction">
+                </figure>
+                <p class="detail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente saepe exercitationem molestias accusantium similique soluta consectetur id velit. Nobis voluptates eaque aperiam fuga vel labore dolore tempora provident asperiores voluptatibus.</p>
+
+                <button class="b1">
+                    <a href="https://en.wikipedia.org/wiki/Patna_Junction_railway_station" target="_blank">READ MORE</a>
+                </button>
+            </section>
+
+            <section class="pages">
+                <h2>RAJGIR</h2>
+                <figure>
+                    <img class="pic" src="/images/rajgir.jpg" alt="RAJGIR ">
+                </figure>
+                <p class="detail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente saepe exercitationem molestias accusantium similique soluta consectetur id velit. Nobis voluptates eaque aperiam fuga vel labore dolore tempora provident asperiores voluptatibus.</p>
+                
+                <button class="b1">
+                    <a href="https://rajgir.co.in/" target="_blank">READ MORE</a>
+                </button>
+            </section>
+            <section class="pages">
+                <h2>MAHAVIR MANDIR</h2>
+                <figure>
+                    <img class="pic" src="/images/mandir.jpg" alt="mahavir mandir">
+                </figure>
+                <p class="detail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente saepe exercitationem molestias accusantium similique soluta consectetur id velit. Nobis voluptates eaque aperiam fuga vel labore dolore tempora provident asperiores voluptatibus.</p>
+                
+                <button class="b1">
+                    <a href="https://mahavirmandirpatna.org/" target="_blank">READ MORE</a>
+                </button>
+            </section>
+            <section class="pages">
+                <h2>BUDDHA SMRITI PARK</h2>
+                <figure>
+                    <img class="pic" src="/images/buddhasmritipark.jpg" alt="buddhasmritipark">
+                </figure>
+                <p class="detail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente saepe exercitationem molestias accusantium similique soluta consectetur id velit. Nobis voluptates eaque aperiam fuga vel labore dolore tempora provident asperiores voluptatibus.</p>
+                
+                <button class="b1">
+                    <a href="https://tourism.bihar.gov.in/en/destinations/patna/buddha-smriti-park" target="_blank">READ MORE</a>
+                </button>
+            </section>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <section>
+            <h3>Copyright </h3>
+            <p>all rights are reserved to the owner</p>
+        </section>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
